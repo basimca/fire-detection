@@ -8,7 +8,7 @@ import math
 
 # Running real time from webcam
 cap = cv2.VideoCapture('fire2.mp4')
-model = YOLO(r'C:\Users\Basi\fire_detect\dataset\runs\detect\train\weights\best.pt')
+model = YOLO(r'runs/detect/train/weights/best.pt')
 
 
 # Reading the classes
